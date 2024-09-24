@@ -110,10 +110,18 @@
         #update:hover {
             background-image: linear-gradient(to right, rgb(9, 105, 201), rgb(9, 105, 201));
         }
+        .return-link {
+            background-color: red;
+            background-size: cover;
+            padding: 5px;
+            text-decoration: none;
+            color: white;
+            border-radius: 15px;
+        }
     </style>
 </head>
 <body>
-    <a href="sistema.php">Voltar</a>
+    <a href="home.php" class="return-link">Voltar</a>
     <div class="box">
         <form action="saveEdit.php" method="POST" autocomplete="off">
             <fieldset>
